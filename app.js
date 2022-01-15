@@ -1,6 +1,5 @@
 const express = require('express');
 const logger = require('morgan');
-const usersRoute = require('./routes/api/users');
 const weatherRoute = require('./routes/api/weather');
 const status = require('./helpers/statusCodes');
 const message = require('./helpers/messages');
